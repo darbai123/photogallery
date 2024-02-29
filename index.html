@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+.photo{
+  max-width:300px;
+  max-height: 300px;
+}
+  </style>
+</head>
+<body>
+    <main>
+        <h1>DogPhotoApp</h1>
+        <section>
+          <h2>Dog Photos</h2>
+          <!-- TODO: Add link to cat photos -->
+          <p>See more <a target="_blank" href="https://darbai123.github.io/myHomePage/index.html#work">cat photos</a> in our gallery.</p>
+          <a href="https://darbai123.github.io/myHomePage/index.html#work"><img src="img/pyksta.jpg" class="photo" alt="A cute dog lying."></a>
+        </section>
+        <section>
+          <h2>Dog Lists</h2>
+          <h3>Things dog love:</h3>
+          <ul>
+            <li>walk outside</li>
+            <li>games</li>
+            <li>pizza</li>
+          </ul>
+          <figure>
+            <img src="img/pica.jpg" class="photo" alt="A slice of pizza on a plate.">
+            <figcaption>Dogs <em>love</em> pizza.</figcaption>  
+          </figure>
+          <h3>Top 3 things dogs hate:</h3>
+          <ol>
+            <li>robe on neck</li>
+            <li>fireworks</li>
+            <li>bad people</li>
+          </ol>
+          <figure>
+            <img src="img/pasivaiksciot.jpg"  class="photo" alt="Dog looking around a field.">
+            <figcaption>Dogs <strong>hate</strong> bad people.</figcaption>  
+          </figure>
+        </section>
+        <section>
+          <h2>Dog Form</h2>
+          <form action="#">
+            <fieldset>
+              <legend>Is your dog an indoor or outdoor dog?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <fieldset>
+              <legend>What's your dog's personality?</legend>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+            <button type="button">Submit</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Atgal <a href="https://darbai123.github.io/myHomePage/index.html#work">darbai123</a>
+        </p>
+      </footer>
+</body>
+</html>
